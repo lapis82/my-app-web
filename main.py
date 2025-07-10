@@ -37,5 +37,10 @@ for site in landmarks:
         icon=folium.Icon(color="red", icon="info-sign")
     ).add_to(m)
 
+
+streamlit
+folium
+streamlit-folium
+
 # 스트림릿에 folium 지도 표시
 st_data = st_folium(m, width=700, height=500)
